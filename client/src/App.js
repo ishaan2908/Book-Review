@@ -11,7 +11,6 @@ function App() {
     return (
         <BrowserRouter>
             <div className="App">
-                <h1>Navbar here</h1>
                 <Toolbar />
                 <Logo />
                 <Route exact path = "/" component = {Welcome} />
